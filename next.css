@@ -51,3 +51,26 @@ button:hover{
 .red:hover{
     background-color:rgb(202, 47, 47); 
 }
+
+
+@media(max-width:576px){
+    body{
+        padding:0;
+        margin:0;
+    }
+    button:hover{
+        background-color: rgb(203, 202, 202);
+    }
+    .btn:hover{
+        background-color: rgb(115, 223, 115);
+    }
+    
+    .red:hover{
+        background-color:rgb(202, 47, 47); 
+    }
+    .container{
+        margin:50px auto;
+        width:320px;
+        margin-top:15px;
+    }
+}
