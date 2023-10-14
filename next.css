@@ -40,7 +40,15 @@ button{
     color:black;
     cursor:pointer;
 }
-
+.btn{
+    background-color:rgb(163, 209, 217);
+}
+.voilet{
+    background-color:rgb(163, 209, 217);
+}
+.voilet:hover{
+    background-color:bisque;
+}
 button:hover{
     background-color: rgb(203, 202, 202);
 }
