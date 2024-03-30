@@ -1,13 +1,15 @@
 h1{
-    color:rgba(223, 26, 131, 0.699);
+    color:rgba(11, 82, 235, 0.699)
+    font-weight:bolder ;
 }
 .container{
     margin:50px auto;
     width: 350px;
     padding:15px;
-    background-color: #b7b7b7;
+    background-color:black;
     border-radius: 20px;
     border: 2px solid grey;
+    box-shadow: 20px 20px 20px black;
 }
 input{
     padding:8px 5px;
@@ -36,49 +38,31 @@ button{
     display:flex;
     align-items:center;
     justify-content: center;
-    font-weight:40px;
+    font-weight: 40px;
     color:black;
     cursor:pointer;
 }
+
 .btn{
-    background-color:rgb(163, 209, 217);
+    background-color:  tomato;
 }
 .voilet{
-    background-color:rgb(163, 209, 217);
+    background-color:tomato;
 }
-.voilet:hover{
-    background-color:bisque;
+.red{
+    background-color:tomato;
 }
 button:hover{
-    background-color: rgb(203, 202, 202);
+    background-color: rgb(108, 105, 105);
 }
 .btn:hover{
-    background-color: rgb(115, 223, 115);
+    background-color: rgb(84, 138, 84);
 }
 
 .red:hover{
-    background-color:rgb(202, 47, 47); 
+    background-color: rgb(238, 171, 89); 
+}
+.voilet:hover{
+    background-color: rgb(238, 171, 89);
 }
 
-
-@media(max-width:576px){
-    body{
-        padding:0;
-        margin:50px auto;
-    }
-    button:hover{
-        background-color: rgb(203, 202, 202);
-    }
-    .btn:hover{
-        background-color: rgb(115, 223, 115);
-    }
-    
-    .red:hover{
-        background-color:rgb(202, 47, 47); 
-    }
-    .container{
-        margin:50px auto;
-        width:300px;
-        margin-top:15px;
-    }
-}
